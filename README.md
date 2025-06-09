@@ -3,6 +3,8 @@
 - A stunning collection of modern, responsive UI components built with pure HTML and CSS. 
 - Perfect for developers looking for inspiration or ready-to-use UI elements for their projects.
 
+---
+
 ## 🌟 Features
 
 - 10+ Unique UI Components
@@ -11,6 +13,8 @@
 - No JavaScript Dependency
 - Easy to Customize
 - Clean, Modern Aesthetics
+
+---
 
 ## 🛠 Components Included
 
@@ -24,6 +28,8 @@
 8. **Netflix Logo** - CSS-only recreation
 9. **Profile Card** - Social media style with hover effects
 10. **Wave Animation** - Beautiful CSS wave pattern
+
+---
 
 ## Live Demo Links :
 
