@@ -5,6 +5,34 @@
 
 ---
 
+## Live Demo Links :
+
+ ### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Animated_Login/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Awesome_Login/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Fixed_Navbar/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Google_Text/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Google_logo/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Image_Animation/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Netflix_logo/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Simple_Login/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Wave_Animation/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/bgimage-login-page/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/car-landing-page/
+
+### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/profile-card/
+
+---
+
 ## 🌟 Features
 
 - 10+ Unique UI Components
@@ -31,31 +59,6 @@
 
 ---
 
-## Live Demo Links :
-
- ### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Animated_Login/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Awesome_Login/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Fixed_Navbar/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Google_Text/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Google_logo/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Image_Animation/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Netflix_logo/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Simple_Login/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Wave_Animation/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/bgimage-login-page/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/car-landing-page/
-
-### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/profile-card/
 
 
 
