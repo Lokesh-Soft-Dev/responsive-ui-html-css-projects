@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class='Html'>
+        <nav id='navbar'>
+            <div class='logo'></div>
+
+            <!-- Hamburger Icon for Mobile -->
+            <div class='hamburger' onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class='list' id="nav-links">
+                <span><a href="">Home</a></span>
+                <span><a href="">About</a></span>
+                <span><a href="">Gallery</a></span>
+                <span><a href="">Contact</a></span>
+                <span><a href="">Services</a></span>
+            </div>
+
+            <div class='icons'>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+
+
+        <div class="Left-Content">
+            <h1>
+                <p class="para1">Powerful Fun and</p>
+            </h1>
+            <h1 class="Head1">FIERCE TO</h1>
+            <h1 class="Head2">DRIVE</h1>
+            <p class="Para2">Real Poise, Real Power, Real Perfomance.</p>
+            <button class="Button">BOOK A TEST RIDE</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('nav-links');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>

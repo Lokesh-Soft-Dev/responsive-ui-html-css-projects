@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.google-logo-text {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.google {
+  color: #4285F4; /* Blue */
+}
+
+.o {
+  color: #EA4335; /* Red */
+}
+
+.g {
+  color: #FBBC05; /* Yellow */
+}
+
+.l {
+  color: #34A853; /* Green */
+}
+
+.e {
+  color: #4285F4; /* Blue */
+}

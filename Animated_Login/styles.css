@@ -1,0 +1,167 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* ====== BACKGROUND ANIMATION ====== */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  background-size: 300% 300%;
+  animation: gradientAnimation 6s ease infinite;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* ====== GLASSMORPHISM LOGIN BOX ====== */
+@keyframes floatUp {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: floatUp 1s ease-in-out;
+}
+
+/* ====== TITLE ANIMATION ====== */
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+  }
+  50% {
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+  }
+  100% {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+  }
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  animation: neonGlow 1.5s infinite alternate;
+}
+
+/* ====== FORM ELEMENTS ====== */
+.input-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  color: #ddd;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  box-shadow: 0px 0px 12px rgba(0, 255, 255, 0.8);
+  border: 1px solid rgba(0, 255, 255, 0.7);
+}
+
+/* ====== LOGIN BUTTON ====== */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #0ff, #00f);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.4);
+}
+
+.login-btn:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, #00f, #0ff);
+  box-shadow: 0px 6px 25px rgba(0, 255, 255, 0.6);
+}
+
+.login-btn:active {
+  transform: translateY(2px) scale(0.97);
+  box-shadow: 0px 3px 12px rgba(0, 255, 255, 0.5);
+}
+
+/* ====== BUTTON LOADING ANIMATION ====== */
+.login-btn.loading {
+  background: linear-gradient(135deg, #1a2980, #26d0ce);
+  cursor: not-allowed;
+  animation: buttonPulse 1.5s infinite ease-in-out;
+}
+
+@keyframes buttonPulse {
+  0% {
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+/* ====== RESPONSIVENESS ====== */
+@media (max-width: 768px) {
+  .login-box {
+    max-width: 95%;
+    padding: 2rem;
+  }
+  .login-btn {
+    font-size: 16px;
+  }
+}

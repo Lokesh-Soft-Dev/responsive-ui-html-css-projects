@@ -1,0 +1,40 @@
+div{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* border-top: 100px solid red;
+    border-right: 100px solid navy;
+    border-left: 100px solid yellow;
+    border-bottom: 100px solid green; */
+    border-top: 100px solid rgb(234, 67, 53);
+    border-right: 100px solid rgb(66, 133, 244);
+    border-left: 100px solid rgb(251, 188, 5);
+    border-bottom: 100px solid rgb(52, 168, 83);
+    border-radius: 60%;
+    margin: 11vh;
+    left: 25%;
+}
+
+div::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(66, 133, 244) ;
+    width: 212px;
+    height: 101px;
+    /* border: 5px solid; */
+    top: 67%;
+    right: -31%;
+    transform: translateY(-100%);
+
+}
+
+div::after{
+    content: "";
+    top: -100px;
+    right: -96px;
+    position: absolute;
+    /* padding-top: -100%; */
+    /* margin-top: -100%; */
+    border-top: 200px solid transparent ;
+    border-right: 200px solid #ffffff;   
+}
