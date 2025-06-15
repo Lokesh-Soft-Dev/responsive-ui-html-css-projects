@@ -1,0 +1,69 @@
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+div {
+    height: 70vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: url(https://cdn.pixabay.com/photo/2020/05/16/10/14/ocean-5176878_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 8px 8px 6px rgb(43, 255, 0);
+    animation: Image 25s infinite;
+}
+
+/* Keyframe Animation */
+@keyframes Image {
+    0% {
+        background: url(https://cdn.pixabay.com/photo/2022/03/09/23/52/island-7058873_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background: url(https://cdn.pixabay.com/photo/2023/04/10/10/19/mountain-7913365_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    40% {
+        background: url(https://cdn.pixabay.com/photo/2020/05/16/10/14/ocean-5176878_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    60% {
+        background: url(https://cdn.pixabay.com/photo/2022/03/23/10/50/sea-7086932_640.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    80% {
+        background: url(https://cdn.pixabay.com/photo/2021/08/04/21/26/ocean-6522657_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100% {
+        background: url(https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_640.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Responsive fallback */
+@media (max-width: 768px) {
+    div {
+        height: 50vh;
+        width: 100%;
+    }
+}

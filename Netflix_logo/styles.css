@@ -1,0 +1,28 @@
+.logo{
+    height: 200px;
+    width: 50px;
+    border-right: 50px solid red;
+    border-left: 50px solid red ;
+    /* filter: grayscale(100%); */
+    display: flex;
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+.logo::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: red;
+    display: block;
+    transform: skew(27deg);
+    /* filter: grayscale(100%); */
+    box-shadow: 0 0 30px black;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    color: red;
+    transform: translate(30px,30px); /*(x,Y)*/
+    transition: all 2s;
+}

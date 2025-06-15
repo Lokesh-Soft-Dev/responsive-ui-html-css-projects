@@ -1,0 +1,108 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Layout Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #1e1e1e;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: #292b2c;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    color: #ddd;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .login-box {
+      padding: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .login-btn,
+    .input-group input {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-box {
+      padding: 1rem;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .login-btn,
+    .input-group input {
+      font-size: 14px;
+    }
+  }
+  
