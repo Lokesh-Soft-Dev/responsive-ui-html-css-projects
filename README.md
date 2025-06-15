@@ -13,6 +13,10 @@
 ---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Awesome_Login/
 ---
+#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Bg_image-Login-Page/
+---
+#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Car-Landing-Page/
+---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Fixed_Navbar/
 ---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Google_Text/
@@ -23,15 +27,11 @@
 ---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Netflix_logo/
 ---
+#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Profile-Card/
+---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Simple_Login/
 ---
 #### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Wave_Animation/
----
-#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Bg_image-Login-Page/
----
-#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Car-Landing-Page/
----
-#### https://lokesh-soft-dev.github.io/responsive-ui-html-css-projects/Profile-Card/
 ---
 
 ## 🌟 Features
@@ -57,8 +57,7 @@
 8. **Netflix Logo** - CSS-only recreation
 9. **Profile Card** - Social media style with hover effects
 10. **Wave Animation** - Beautiful CSS wave pattern
-11. ****
-
+    
 ---
 ## 🧑‍💻 Author
 
