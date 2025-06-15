@@ -59,9 +59,7 @@
 10. **Wave Animation** - Beautiful CSS wave pattern
     
 ---
-
 ## 🧑‍💻 Author
 
 ## **LOKESH K** ##
-
 ---
